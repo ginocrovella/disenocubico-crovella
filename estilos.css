@@ -185,3 +185,47 @@ main div h3 {
     border: solid 1px rgba(0, 0, 0, 0.452);
 }
 
+/* AYUDA */ 
+.card-help {
+    background-image: radial-gradient(circle, #cbe49c, #a3b77d, #7c8c60);
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    height: 300px;
+    font-weight: bold;
+    border: groove 1px rgba(0, 0, 0, 0.212);
+}
+.card-help-2 {
+    background-image: radial-gradient(circle, #cbe49c, #a3b77d, #7c8c60);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    height: 410px;
+    font-weight: bold;
+    border: groove 1px rgba(0, 0, 0, 0.212);
+}
+
+.links-help {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+ul li {
+    list-style-type: none;
+}
+li a {
+    color: black;
+}
+
+.img-help-1 {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+}
+
+.img-help-2 {
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    margin-right: 15px;
+}

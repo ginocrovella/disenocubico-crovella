@@ -229,3 +229,39 @@ li a {
     margin-top: 10px;
     margin-right: 15px;
 }
+
+/* ANIMACION */ 
+.tituloAnimado {
+    animation-name: titulo;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+
+/* KEYFRAMES = linea de tiempo */
+@keyframes titulo {
+    from /* inicio */ {
+         transform: translate(-100px);
+         opacity: 0;
+        }
+    to /* final */ {
+         transform: translate(0);
+         opacity: 1;
+        }
+}
+
+/* TRANSICION */
+.transicion {
+    transition: width 0.5s;
+}
+.transicion:hover {
+    width: 450px;
+    height: 300px;
+}
+.transicion-mascota {
+    transition: width 0.5s;
+}
+.transicion-mascota:hover{
+    width: 450px;
+    height: 500;
+}

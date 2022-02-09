@@ -134,3 +134,37 @@ footer div i {
     text-align: end;
 }
 
+/* DISEÑOS 1 */ 
+.diseño {
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: #cbe49c;
+    box-shadow: -1px 13px 20px -4px rgba(0, 0, 0, 0.68);
+    -webkit-box-shadow: -1px 13px 20px -4px rgba(0, 0, 0, 0.68);
+    -moz-box-shadow: -1px 13px 20px -4px rgba(0, 0, 0, 0.68);
+}
+
+.metodoPago {
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: -1px 13px 20px -4px rgba(0, 0, 0, 0.68);
+    -webkit-box-shadow: -1px 13px 20px -4px rgba(0, 0, 0, 0.68);
+    -moz-box-shadow: -1px 13px 20px -4px rgba(0, 0, 0, 0.68);
+    font-weight: bold;
+    background-image: radial-gradient(circle, #cadca9, #cadea6, #cbe0a3, #cbe29f, #cbe49c);
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.botones {
+    background-color: rgba(0, 0, 0, 0.233);
+    color: white;
+    border: solid 1px rgba(0, 0, 0, 0.452);
+}
+

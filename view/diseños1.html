@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,43 +11,121 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilos.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 </head>
-<body>
-  <header>
-    <!-- LOGO Y TITULO -->
-      <div class="container-fluid">
-        <div class="row align-items-start">
-        <div class="col">
-          <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" class="logo"></a>
-        </div>
-        <div class="col">
-          <h1 class="titulo">DISEÑO CÚBICO</h1>
-        </div>
-        <div class="col"></div>
-        </div>      
-      </div>
 
-    <!-- NAV BAR -->
-      <div class="container-fluid">
-        <ul class="nav justify-content-center">
-          <li class="nav-item barra-nav">
-            <a class="nav-link active link-dark" href="qs.html">¿Quienes somos?</a>
-          </li>
-          <li class="nav-item barra-nav">
-            <a class="nav-link active link-dark" href="diseños1.html">Diseños Estándar</a>
-          </li>
-          <li class="nav-item barra-nav">
-            <a class="nav-link active link-dark" href="diseños2.html">Diseños a medida</a>
-          </li>
-          <li class="nav-item barra-nav">
-            <a class="nav-link active link-dark" href="diseños3.html">Diseños para mascotas</a>
-          </li>
-          <li class="nav-item barra-nav">
-            <a class="nav-link active link-dark" href="ayuda.html">Ayuda</a>
-          </li>
-      </div>
+<body>
+    <header>
+        <!-- LOGO Y TITULO -->
+        <div class="container-fluid">
+            <div class="row align-items-start">
+                <div class="col">
+                    <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" class="logo"></a>
+                </div>
+                <div class="col">
+                    <h1 class="titulo">DISEÑO CÚBICO</h1>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+
+        <!-- NAV BAR -->
+        <div class="container-fluid">
+            <ul class="nav justify-content-center">
+                <li class="nav-item barra-nav">
+                    <a class="nav-link active link-dark" href="qs.html">¿Quienes somos?</a>
+                </li>
+                <li class="nav-item barra-nav">
+                    <a class="nav-link active link-dark" href="diseños1.html">Diseños Estándar</a>
+                </li>
+                <li class="nav-item barra-nav">
+                    <a class="nav-link active link-dark" href="diseños2.html">Diseños a medida</a>
+                </li>
+                <li class="nav-item barra-nav">
+                    <a class="nav-link active link-dark" href="diseños3.html">Diseños para mascotas</a>
+                </li>
+                <li class="nav-item barra-nav">
+                    <a class="nav-link active link-dark" href="ayuda.html">Ayuda</a>
+                </li>
+        </div>
     </header>
+    <main>
+        <h2 class="titulo2 tituloAnimado">Diseños Estándar</h2>
+
+        <div id="diseñosEstandar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="card diseño" style="width: 25rem;">
+                            <h5 class="card-title">Diseño 1</h5>
+                            <img src="../img/estándar 1.jpg" class="card-img-top transicion" alt="mueble estandar 1">
+                            <div class="card-body">
+                                <input type="button" value="Consultar precio" class="botones"> <br><br>
+                                <label for="opciones">Colores disponibles</label>
+                                <select name="opciones" id="opciones" class="botones">
+                                    <option value="Marrón">Marrón</option>
+                                    <option value="Blanco">Blanco</option>
+                                    <option value="Negro">Negro</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card diseño" style="width: 25rem;">
+                            <h5 class="card-title">Diseño 2</h5>
+                            <img src="../img/estándar 2.jpg" class="card-img-top transicion" alt="mueble estandar 2">
+                            <div class="card-body">
+                                <input type="button" value="Consultar precio" class="botones"> <br><br>
+                                <label for="opciones">Colores disponibles</label>
+                                <select name="opciones" id="opciones" class="botones">
+                                    <option value="Marrón">Marrón</option>
+                                    <option value="Blanco">Blanco</option>
+                                    <option value="Negro">Negro</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card diseño" style="width: 25rem;">
+                            <h5 class="card-title">Diseño 2</h5>
+                            <img src="../img/estándar 3.jpg" class="card-img-top transicion" alt="mueble estandar 3">
+                            <div class="card-body">
+                                <input type="button" value="Consultar precio" class="botones"> <br><br>
+                                <label for="opciones">Colores disponibles</label>
+                                <select name="opciones" id="opciones" class="botones">
+                                    <option value="Marrón">Marrón</option>
+                                    <option value="Blanco">Blanco</option>
+                                    <option value="Negro">Negro</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col"> </div>
+                    <div class="col">
+                        <form action="">
+                            <div class="metodoPago">
+                                <p class="icono"><i class="bi bi-credit-card-2-back-fill "></i> <i
+                                        class="bi bi-credit-card-2-front "></i></p>
+                                <legend>Métodos de pago</legend>
+                                <input type="button" name="" value="Mercado pago" class="botones"> <br><br>
+                                <label for="opciones">Elegí tu tarjeta</label>
+                                <select name="opciones" id="opciones" class="botones">
+                                    <option value="Tarjeta de crédito" class="botones">Tarjeta de crédito</option>
+                                    <option value="Tarjeta de débito" class="botones">Tarjeta de débito</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col"> </div>
+                </div>
+            </div>
+    </main>
 </body>

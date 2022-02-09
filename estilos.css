@@ -41,3 +41,33 @@ body {
     color: black;
     background-color: whitesmoke;
 }
+
+.carousel {
+    display: flex;
+    justify-content: center;
+}
+.carrusel-img {
+    box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);
+}
+
+.card-gama {
+    margin-top: 40px;
+    margin-left: 0px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: rgb(203, 228, 156);
+    box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);
+}
+
+.card-mascota {
+    margin: 40px 0px 15px 10px;
+    font-weight: bold;
+    background-color: rgb(203, 228, 156);
+    box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);
+}
